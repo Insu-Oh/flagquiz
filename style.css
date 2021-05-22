@@ -78,16 +78,16 @@ a,
   cursor: pointer;
 }
 
-button,
-a,
+button:hover,
+a:hover,
 .buttons button:hover {
   font-weight: bolder;
   font-size: 40px;
   transition: font-size 0.5s;
 }
 
-button,
-a,
+button:not(hover),
+a:not(hover),
 .buttons button:not(hover) {
   font-weight: normal;
   font-size: 30px;

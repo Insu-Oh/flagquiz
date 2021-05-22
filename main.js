@@ -387,10 +387,14 @@ const Quiz = {
       }
     },
     displayNextQuestion: function(){
-      this.settings.curQuestionNum++
+      if(this.settings.curQuestionNum < this.settings.quantity) {
+        this.settings.curQuestionNum++
+      }
     },
     displayPreviousQuestion: function(){
-      this.settings.curQuestionNum--
+      if(this.settings.curQuestionNum > 0) {
+        this.settings.curQuestionNum--
+      }
     },
 
     newQuiz: function() {
