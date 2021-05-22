@@ -107,7 +107,7 @@ const Quiz = {
       settings: {
         curQuestionNum: 0,
         level: 1,
-        quantity: 41 
+        quantity: 53 
       },
       questions: [
       ],
@@ -361,6 +361,78 @@ const Quiz = {
         index: 41,
         name: 'Poland',
         img: 'flags/poland.png',
+        isDone: false
+      },
+      {
+        index: 42,
+        name: 'South Sudan',
+        img: 'flags/south_sudan.png',
+        isDone: false
+      },
+      {
+        index: 43,
+        name: 'Sudan',
+        img: 'flags/sudan.png',
+        isDone: false
+      },
+      {
+        index: 44,
+        name: 'Estonia',
+        img: 'flags/estonia.png',
+        isDone: false
+      },
+      {
+        index: 45,
+        name: 'Kazakhstan',
+        img: 'flags/kazakhstan.png',
+        isDone: false
+      },
+      {
+        index: 46,
+        name: 'Malaysia',
+        img: 'flags/malaysia.png',
+        isDone: false
+      },
+      {
+        index: 47,
+        name: 'Pakistan',
+        img: 'flags/pakistan.png',
+        isDone: false
+      },
+      {
+        index: 48,
+        name: 'Indonesia',
+        img: 'flags/indonesia.png',
+        isDone: false
+      },
+      {
+        index: 49,
+        name: 'Singapore',
+        img: 'flags/singapore.png',
+        isDone: false
+      },
+      {
+        index: 50,
+        name: 'Nepal',
+        img: 'flags/nepal.png',
+        isDone: false
+      },
+      {
+        index: 51,
+        name: 'Palau',
+        img: 'flags/palau.png',
+        isDone: false
+      },
+      {
+        index: 52,
+        name: 'Panama',
+        img: 'flags/panama.png',
+        isDone: false
+      },
+      {
+        index: 53,
+        name: 'Colombia',
+        img: 'flags/colombia.png',
         isDone: false
       },
     ]
